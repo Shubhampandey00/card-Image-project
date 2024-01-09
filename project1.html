@@ -1,0 +1,147 @@
+<!-- MAKING A  CARD -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: gray;
+        }
+
+        .card {
+            background-color: white;
+            width: 270px;
+            height: 500px;
+            border-radius: 15px;
+            margin: 50px;
+        }
+
+        .image {
+
+            /* IN CSS WE USE PADDING TAG TO MAKE SPASE AROUNT TO THE ELRMINT OR IMAGE*/
+            padding: 35px;
+            
+        }
+        
+        .image img {
+            border-radius: 15px;
+            width: 200px;
+        }
+
+        .capsules {
+            padding: 0 28px 0 14px;
+        }
+
+        .capsules span {
+            border: 1px solid gray;
+            padding: 0px 6px;
+            border-radius: 7px;
+        }
+
+        .box {
+            font-size: px;
+            padding: 9px;
+            margin: px;
+
+        }
+
+        .content {
+            padding: 9px 13px;
+        }
+
+        .content p {
+            font-size: 9px;
+        }
+
+        .capsules {
+            padding: 0px 65px;
+        }
+
+        .capsules sp {
+            border: 1px solid black;
+            border-radius: 9px;
+            font-size: 9px;
+            padding: 5px;
+
+        }
+        .bn632-hover {
+            position: absolute;
+  top: 62%;
+  left: 9%;
+  transform: translate(-50%, -50%); /* Adjust for width and height */
+
+  width: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  color:rgb(224, 235, 239);
+  cursor: pointer;
+  margin: 35px;
+  height: 42px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 40px;
+  transition: all .4s ease-in-out; /* Use 'transition' instead of 'moz-transition' */
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn26 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="image">
+            <img width="180px"
+                src="https://images.unsplash.com/photo-1477948879622-5f16e220fa42?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="">
+        </div>
+        <div class="capsules">
+            <sp>Nature</sp>
+            <sp>Mountain</sp>
+        </div>
+        <div class="content"></div>
+        <div class="box">
+
+            <h2>Nature</h2>
+            <p>High elevations on mountains produce colder climates than at sea level at similar latitude. These colder climates strongly affect the ecosystems of mountains: different elevations have different plants and animals. Because of the less hospitable terrain and climate, </p>
+        </div>
+
+        <a href="/"><button class="bn632-hover bn26">Explore</button></a>
+
+
+          
+    </div>
+
+
+</body>
+
+</html
